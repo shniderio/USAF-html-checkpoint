@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333;
+    padding: 0.2rem;
+}
+
+nav h2 { 
+    color: white !important;
+    padding: 0.5rem 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.search-form {
+    display: flex;
+    margin-left: auto;
+    gap: 0.5rem;
+}
+
+.search-form input {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    width: 250px;
+    height: 1.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-form button {
+    padding: 0.4rem 2rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    background-color: #333;
+    color: #ffdf40;
+    border: 2px solid #ffdf40;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #d8b91e;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form input {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3rem;
+    width: 700px;
+    height: 0.3rem;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.login-form button {
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(19, 105, 255);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
