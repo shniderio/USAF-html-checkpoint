@@ -8,7 +8,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     background-color: #333;
-    padding: 0.2rem;
+    padding: 0rem;
 }
 
 nav h2 { 
@@ -38,14 +38,15 @@ nav a:hover {
     padding: 1.5rem 3rem;
     font-size: 1.5rem;
     width: 250px;
-    height: 1.5rem;
+    height: 0.25rem;
     border-radius: 4px;
     border: none;
 }
 
 .search-form button {
-    padding: 0.4rem 2rem;
-    height: 4.5rem;
+    margin-right: 25px;
+    padding: 0.4rem 1.5rem;
+    height: 3.25rem;
     font-size: 2rem;
     background-color: #333;
     color: #ffdf40;
@@ -132,5 +133,38 @@ main {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 0rem;
+}
 
+.poster-and-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box input {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3rem;
+    width: 120px;
+    height: 1px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.comment-box button {
+    margin-top: 4rem;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(19, 105, 255);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100px;
 }
